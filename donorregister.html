@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="donorregister.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Become a Donor</h2>
+        </div>
+        <form id="form" class="form" method="POST" action="https://formsubmit.co/shrikumarancsc@gmail.com" >
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="florinpop17" id="username" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="fullname">Fullname</label>
+                <input type="text" placeholder="AldrinVince" id="fullname" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="a@florin-pop.com" id="email" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label>
+                <input type="text" placeholder="20" id="age" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="number">Phone Number</label>
+                <input type="text" placeholder="934465570" id="number" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="dob">Date of Birth</label>
+                <input type="date" min="1957-01-01" max="2004-01-01" id="dob" />
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password check</label>
+                <input type="password" placeholder="Password two" id="password2"/>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="verify">All the Information Entered are true</label>
+                <input type="checkbox" id="verify"/>
+                <small id="verifyerror">Error message</small>
+            </div>
+            <input type="submit" value="submit" onclick="checkInputs()">
+        </form>
+    </div> 
+    <script src="donorregister.js"></script>
+</body>
+</html>
